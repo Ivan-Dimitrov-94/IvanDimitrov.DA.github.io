@@ -3965,7 +3965,6 @@ input, select, textarea {
 }
 
 .iframe-container {
-  border: 2px solid red; /* For debug */
   background: rgba(255, 0, 0, 0.1);
 }
 
