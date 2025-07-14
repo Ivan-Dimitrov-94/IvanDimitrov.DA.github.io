@@ -3945,6 +3945,24 @@ input, select, textarea {
 			}
 
 		}
+/* Responsive iframe for embedded Google Slides */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%; /* Aspect ratio 16:9. Adjust if needed */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
 /* Footer */
 
